@@ -1,0 +1,6 @@
+Mar 29 2020 04:18:35
+{"type":2,"message":"fopen(C:\\Users\\Dave\\Local Sites\\the-riverbank\\app\\public\/\/C:\/Users\/Dave\/Local Sites\/the-riverbank\/app\/public\/wp-content\/uploads\/sucuri\/.htaccess): failed to open stream: No such file or directory","file":"C:\\Users\\Dave\\Local Sites\\the-riverbank\\app\\public\\wp-content\\plugins\\sucuri-scanner\\src\\hardening.lib.php","line":98}
+
+Mar 29 2020 04:18:37
+{"type":2,"message":"fopen(C:\\Users\\Dave\\Local Sites\\the-riverbank\\app\\public\/\/C:\/Users\/Dave\/Local Sites\/the-riverbank\/app\/public\/wp-content\/uploads\/sucuri\/.htaccess): failed to open stream: No such file or directory","file":"C:\\Users\\Dave\\Local Sites\\the-riverbank\\app\\public\\wp-content\\plugins\\sucuri-scanner\\src\\hardening.lib.php","line":98}
+

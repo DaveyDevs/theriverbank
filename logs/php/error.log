@@ -1,0 +1,53 @@
+[29-Mar-2020 04:17:49 UTC] WordPress database error Table 'local.wp_usermeta' doesn't exist for query SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1) ORDER BY umeta_id ASC made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), load_default_textdomain, determine_locale, get_user_locale, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_auth_cookie, get_user_by, WP_User->init, WP_User->for_site, WP_User->get_caps_data, get_user_meta, get_metadata, update_meta_cache
+[29-Mar-2020 19:40:05 UTC] PHP Warning:  include_once(C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-content\plugins\wp-event-manager\wp-event-manager.php): failed to open stream: No such file or directory in C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-settings.php on line 360
+[29-Mar-2020 19:40:05 UTC] PHP Stack trace:
+[29-Mar-2020 19:40:05 UTC] PHP   1. {main}() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\index.php:0
+[29-Mar-2020 19:40:05 UTC] PHP   2. require_once() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\index.php:10
+[29-Mar-2020 19:40:05 UTC] PHP   3. require_once() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\admin.php:34
+[29-Mar-2020 19:40:05 UTC] PHP   4. require_once() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-load.php:37
+[29-Mar-2020 19:40:05 UTC] PHP   5. require_once() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-config.php:77
+[29-Mar-2020 19:40:05 UTC] PHP Warning:  include_once(): Failed opening 'C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-content\plugins\wp-event-manager\wp-event-manager.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-settings.php on line 360
+[29-Mar-2020 19:40:05 UTC] PHP Stack trace:
+[29-Mar-2020 19:40:05 UTC] PHP   1. {main}() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\index.php:0
+[29-Mar-2020 19:40:05 UTC] PHP   2. require_once() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\index.php:10
+[29-Mar-2020 19:40:05 UTC] PHP   3. require_once() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\admin.php:34
+[29-Mar-2020 19:40:05 UTC] PHP   4. require_once() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-load.php:37
+[29-Mar-2020 19:40:05 UTC] PHP   5. require_once() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-config.php:77
+[29-Mar-2020 19:40:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-settings.php:360) in C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\pluggable.php on line 1265
+[29-Mar-2020 19:40:16 UTC] PHP Stack trace:
+[29-Mar-2020 19:40:16 UTC] PHP   1. {main}() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\index.php:0
+[29-Mar-2020 19:40:16 UTC] PHP   2. require_once() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\index.php:10
+[29-Mar-2020 19:40:16 UTC] PHP   3. auth_redirect() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\admin.php:94
+[29-Mar-2020 19:40:16 UTC] PHP   4. wp_redirect() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\pluggable.php:1085
+[29-Mar-2020 19:40:16 UTC] PHP   5. header() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\pluggable.php:1265
+[29-Mar-2020 19:40:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-settings.php:360) in C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\pluggable.php on line 1268
+[29-Mar-2020 19:40:16 UTC] PHP Stack trace:
+[29-Mar-2020 19:40:16 UTC] PHP   1. {main}() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\index.php:0
+[29-Mar-2020 19:40:16 UTC] PHP   2. require_once() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\index.php:10
+[29-Mar-2020 19:40:16 UTC] PHP   3. auth_redirect() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\admin.php:94
+[29-Mar-2020 19:40:16 UTC] PHP   4. wp_redirect() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\pluggable.php:1085
+[29-Mar-2020 19:40:16 UTC] PHP   5. header() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\pluggable.php:1268
+[30-Mar-2020 00:00:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-content\plugins\optinmonster\OMAPI\Widget.php on line 192
+[30-Mar-2020 00:00:04 UTC] PHP Stack trace:
+[30-Mar-2020 00:00:04 UTC] PHP   1. {main}() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\customize.php:0
+[30-Mar-2020 00:00:04 UTC] PHP   2. do_action() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\customize.php:123
+[30-Mar-2020 00:00:04 UTC] PHP   3. WP_Hook->do_action() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\plugin.php:478
+[30-Mar-2020 00:00:04 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\class-wp-hook.php:312
+[30-Mar-2020 00:00:04 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\class-wp-hook.php:288
+[30-Mar-2020 00:00:04 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\class-wp-customize-widgets.php:690
+[30-Mar-2020 00:00:04 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\class-wp-customize-widgets.php:1001
+[30-Mar-2020 00:00:04 UTC] PHP   8. wp_widget_control() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\class-wp-customize-widgets.php:1053
+[30-Mar-2020 00:00:04 UTC] PHP   9. OMAPI_Widget->form_callback() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\includes\widgets.php:276
+[30-Mar-2020 00:00:04 UTC] PHP  10. OMAPI_Widget->form() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\class-wp-widget.php:518
+[30-Mar-2020 00:00:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-content\plugins\optinmonster\OMAPI\Widget.php on line 192
+[30-Mar-2020 00:00:05 UTC] PHP Stack trace:
+[30-Mar-2020 00:00:05 UTC] PHP   1. {main}() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\customize.php:0
+[30-Mar-2020 00:00:05 UTC] PHP   2. do_action() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-admin\customize.php:173
+[30-Mar-2020 00:00:05 UTC] PHP   3. WP_Hook->do_action() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\plugin.php:478
+[30-Mar-2020 00:00:05 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\class-wp-hook.php:312
+[30-Mar-2020 00:00:05 UTC] PHP   5. WP_Customize_Widgets->print_scripts() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\class-wp-hook.php:288
+[30-Mar-2020 00:00:05 UTC] PHP   6. do_action() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\class-wp-customize-widgets.php:660
+[30-Mar-2020 00:00:05 UTC] PHP   7. WP_Hook->do_action() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\plugin.php:478
+[30-Mar-2020 00:00:05 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\class-wp-hook.php:312
+[30-Mar-2020 00:00:05 UTC] PHP   9. SiteOrigin_Panels_Admin->enqueue_admin_scripts() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-includes\class-wp-hook.php:288
+[30-Mar-2020 00:00:05 UTC] PHP  10. OMAPI_Widget->form() C:\Users\Dave\Local Sites\the-riverbank\app\public\wp-content\plugins\siteorigin-panels\inc\admin.php:500

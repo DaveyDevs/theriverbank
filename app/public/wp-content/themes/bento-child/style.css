@@ -1,0 +1,46 @@
+/*
+
+Theme Name: Bento Child
+
+Template: bento
+
+Version: 1.0.0
+*/
+
+.mobile-menu-trigger #nav-mobile li a:hover,
+.mobile-menu-trigger .mobile-menu-trigger-container:hover,
+.mobile-menu-trigger .mobile-menu-close:hover {
+  color: #00d118;
+}
+
+.wpem-form-wrapper .wpem-form-group .wpem-form-label-text {
+  color: white;
+}
+
+.wpem-form-wrapper .wpem-form-title {
+  color: white;
+}
+
+body label {
+  font-size: 1em;
+}
+
+.wpem-theme-button {
+  /* See if this works */
+}
+
+#wpforms-submit-37 {
+  background-color: #00d118;
+  border: none;
+  color: white;
+  font-family: inherit;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 16px 20px;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+#wpforms-submit-37:hover {
+  background-color: #00af1a;
+}

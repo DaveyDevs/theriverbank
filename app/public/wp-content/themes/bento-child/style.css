@@ -7,10 +7,37 @@ Template: bento
 Version: 1.0.0
 */
 
+.logo-fullsize:hover {
+  border: solid;
+  border-color: #00d118;
+}
+
+/* Couldn't get focus to work */
+
+/* .logo-fullsize .logo-image-link:focus {
+  border: solid;
+  border-color: #00d118;
+} */
+
 .mobile-menu-trigger #nav-mobile li a:hover,
 .mobile-menu-trigger .mobile-menu-trigger-container:hover,
 .mobile-menu-trigger .mobile-menu-close:hover {
   color: #00d118;
+}
+
+/* Couldn't get focus to work */
+
+/* .mobile-menu-trigger #nav-mobile li a:focus,
+.mobile-menu-trigger .mobile-menu-trigger-container a:focus,
+.mobile-menu-trigger .mobile-menu-close a:focus {
+  border: solid;
+  border-color: #00d118;
+} */
+
+/* Got focus to work here though */
+
+.entry-content > h2:nth-child(1) > a:nth-child(1):focus {
+  border: solid;
 }
 
 .wpem-form-wrapper .wpem-form-group .wpem-form-label-text {
@@ -43,4 +70,47 @@ body label {
 
 #wpforms-submit-37:hover {
   background-color: #00af1a;
+}
+
+/* Event info page */
+
+.wpem-single-event-images {
+  background-color: #141414;
+}
+
+.wpem-single-event-short-info {
+  background-color: white;
+}
+
+.wpem-single-event-body > div:nth-child(1) {
+  color: white;
+}
+
+.wpem-single-event-page
+  .wpem-single-event-wrapper
+  .wpem-single-event-body
+  .wpem-single-event-body-sidebar
+  .wpem-heading-text {
+  color: white;
+  text-decoration: underline;
+}
+
+.wpem-event-sidebar-button .registration_button {
+  background-color: #00d118;
+}
+
+.wpem-event-sidebar-button .registration_button:hover {
+  background-color: #00af1a;
+}
+
+#event-youtube-button {
+  background-color: #00d118;
+}
+
+#event-youtube-button:hover {
+  background-color: #00af1a;
+}
+
+#wpem_organizer_profile {
+  color: white;
 }

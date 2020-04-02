@@ -1,0 +1,36 @@
+= 1.0.9 =
+* Added: Block Editor styles.
+* Added: Reset functionality for Typography control.
+* Added: Reset functionality for Spacing control.
+* Updated: Google Fonts list.
+* Improved: Default visibility for Sinatra widgets.
+* Improved: Function naming.
+* Improved: Class name prefix shortened.
+* Improved: CSS Styling enhancements.
+* Improved: Coding standards.
+
+= 1.0.8 =
+* Added: Button Styling options.
+* Updated: Google Fonts list.
+* Improved: Customizer options.
+* Improved: Accessibility.
+* Improved: Default & Dynamic styles.
+
+= 1.0.7 =
+* Fixed: Keyboard navigation for dropdown menu is not working.
+* Added: Support for wp_body_open() hook.
+* Removed: Facebook social link from about page.
+
+= 1.0.6 =
+* Added: woff2 font file.
+* Added: Elementor compatibility.
+* Fixed: “Add new theme” not working.
+* Updated: WooCommerce templates.
+* Improved: jQuery replaced with plain Javascript.
+* Improved: CSS Styling enhancements.
+* Improved: Coding standards.
+* Improved: WooCommerce compatibility.
+* Improved: Customizer options.
+
+= 1.0.0 =
+* Initial release 🚀

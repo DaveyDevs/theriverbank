@@ -1,7 +1,7 @@
 <?php
 // datastore=auditqueue;
 // created_on=1585428093;
-// updated_on=1585455542;
+// updated_on=1585801192;
 exit(0);
 ?>
 1585428093_7317:"Warning: daveydevs, 73.111.201.200; Plugin activated: Sucuri Security - Auditing, Malware Scanner and Hardening (v1.8.24; sucuri-scanner\/sucuri.php)"
@@ -149,3 +149,15 @@ exit(0);
 1585527530_2046:"Warning: daveydevs, 127.0.0.1; Post moved to trash; ID: 66; name: ; status: publish"
 1585527530_9753:"Notice: daveydevs, 127.0.0.1; Customize_changeset status has been changed; details: ID: 66,Old status: publish,New status: trash,Title: "
 1585527532_1692:"Notice: daveydevs, 127.0.0.1; Customize_changeset status has been changed; details: ID: 66,Old status: auto-draft,New status: publish,Title: "
+1585611771_3373:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 67,Old status: new,New status: auto-draft,Title: Auto Draft"
+1585611798_1873:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 67,Old status: auto-draft,New status: draft,Title: Test event after filter edits"
+1585611917_1031:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 67,Old status: draft,New status: publish,Title: Test event after filter edits"
+1585621411_1053:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 68,Old status: new,New status: auto-draft,Title: Auto Draft"
+1585623421_9973:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 69,Old status: new,New status: preview,Title: Category test event"
+1585623437_9995:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 69,Old status: preview,New status: pending,Title: Category test event"
+1585623515_3711:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 69,Old status: pending,New status: publish,Title: Category test event"
+1585694999_9317:"Notice: 127.0.0.1; User authentication succeeded: daveydevs"
+1585699317_5373:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 70,Old status: new,New status: auto-draft,Title: Auto Draft"
+1585699382_3523:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 70,Old status: auto-draft,New status: draft,Title: Past event please expire"
+1585699419_0346:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 70,Old status: draft,New status: publish,Title: Past event please expire"
+1585790473_2572:"Notice: 73.111.201.200; User authentication succeeded: daveydevs"

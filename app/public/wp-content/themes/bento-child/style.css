@@ -7,17 +7,30 @@ Template: bento
 Version: 1.0.0
 */
 
-.logo-fullsize:hover {
+.logo-fullsize:hover,
+.logo-fullsize:focus {
   border: solid;
   border-color: #00d118;
 }
 
-/* Couldn't get focus to work */
-
-/* .logo-fullsize .logo-image-link:focus {
+.logo-image-link:hover,
+.logo-image-link:focus {
   border: solid;
   border-color: #00d118;
-} */
+}
+
+.nav ul li a:focus {
+  outline: solid 2px #00d118;
+}
+
+.entry-content > h2:nth-child(1) > a:nth-child(1):focus {
+  outline: solid 2px #00d118;
+}
+
+#menu-navbar-1 li a:focus {
+  border: solid;
+  border-color: #00d118;
+}
 
 .mobile-menu-trigger #nav-mobile li a:hover,
 .mobile-menu-trigger .mobile-menu-trigger-container:hover,
@@ -25,20 +38,114 @@ Version: 1.0.0
   color: #00d118;
 }
 
-/* Couldn't get focus to work */
-
-/* .mobile-menu-trigger #nav-mobile li a:focus,
-.mobile-menu-trigger .mobile-menu-trigger-container a:focus,
-.mobile-menu-trigger .mobile-menu-close a:focus {
-  border: solid;
-  border-color: #00d118;
-} */
-
-/* Got focus to work here though */
-
-.entry-content > h2:nth-child(1) > a:nth-child(1):focus {
-  border: solid;
+#search_keywords:focus {
+  outline: solid 5px #00d118;
 }
+
+#drp_autogen0:focus {
+  outline: solid 5px #00d118;
+}
+
+.wpem-form-wrapper
+  .chosen-container
+  .chosen-drop
+  .chosen-results
+  li.highlighted {
+  background: #00d118;
+}
+
+.wpem-event-listings .wpem-event-layout-wrapper {
+  background: #141414;
+}
+
+.wpem-event-listings .wpem-event-layout-wrapper:hover {
+  background: #141414;
+}
+
+.wpem-event-listings .wpem-event-layout-wrapper .wpem-event-action-url:hover,
+.wpem-event-listings .wpem-event-layout-wrapper .wpem-event-action-url:focus {
+  border-width: 7px;
+  border-color: #00d118;
+}
+
+.wpem-event-listings
+  .wpem-event-layout-wrapper
+  .wpem-event-infomation
+  .wpem-event-date
+  .wpem-event-date-type
+  .wpem-from-date
+  .wpem-date {
+  color: white;
+}
+
+.wpem-event-listings
+  .wpem-event-layout-wrapper
+  .wpem-event-infomation
+  .wpem-event-date
+  .wpem-event-date-type
+  .wpem-from-date
+  .wpem-month {
+  color: white;
+}
+
+.wpem-event-listings
+  .wpem-event-layout-wrapper
+  .wpem-event-infomation
+  .wpem-event-details
+  .wpem-event-title
+  .wpem-heading-text {
+  color: #00d118;
+}
+
+.wpem-event-listings
+  .wpem-event-layout-wrapper
+  .wpem-event-infomation
+  .wpem-event-details {
+  color: white;
+}
+
+.wpem-event-ticket-type .wpem-event-ticket-type-text {
+  background: #141414;
+  border: solid 1px #00d118;
+  color: white;
+  transition: 0.2s;
+}
+
+.wpem-event-ticket-type .wpem-event-ticket-type-text:hover {
+  background: #5e5e5e;
+}
+
+/* Events Box View */
+
+.wpem-event-listings
+  .wpem-event-layout-wrapper
+  .wpem-event-infomation
+  .wpem-event-details {
+  background: #141414;
+}
+
+.wpem-event-listings.wpem-event-listing-box-view
+  .wpem-event-layout-wrapper:hover {
+  outline: solid 5px #00d118;
+}
+
+.wpem-event-listings.wpem-event-listing-box-view
+  .wpem-event-layout-wrapper
+  .wpem-event-action-url:focus {
+  outline: solid 8px #00d118;
+}
+
+.wpem-event-listings.wpem-event-listing-box-view
+  .wpem-event-layout-wrapper
+  .wpem-event-infomation
+  .wpem-event-details
+  .wpem-event-title
+  .wpem-heading-text {
+  color: #00d118;
+}
+
+/* ******************************************************************* */
+/* Contact/Suggestions page */
 
 .wpem-form-wrapper .wpem-form-group .wpem-form-label-text {
   color: white;
@@ -50,10 +157,6 @@ Version: 1.0.0
 
 body label {
   font-size: 1em;
-}
-
-.wpem-theme-button {
-  /* See if this works */
 }
 
 #wpforms-submit-37 {
@@ -68,10 +171,12 @@ body label {
   transition: 0.2s;
 }
 
-#wpforms-submit-37:hover {
+#wpforms-submit-37:hover,
+#wpforms-submit-37:focus {
   background-color: #00af1a;
 }
 
+/* ***************************************************************** */
 /* Event info page */
 
 .wpem-single-event-images {
@@ -113,4 +218,12 @@ body label {
 
 #wpem_organizer_profile {
   color: white;
+}
+
+/* ************************************************************** */
+/*  Event submission page */
+
+input[type="submit"]:focus,
+.site-content .button:focus {
+  background-color: #00af1a;
 }

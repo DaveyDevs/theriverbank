@@ -1,0 +1,304 @@
+0000.001 (0) Opened log file at time: Tue, 31 Mar 2020 22:07:54 +0000 on http://diylivestreams.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.0.33 (cgi-fcgi, Linux box5592.bluehost.com 4.14.146-225.ELK.el6.x86_64 #1 SMP Sat Sep 21 01:19:55 CDT 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.4M | 52M) multisite: N openssl: OpenSSL 1.0.2t  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.088 (0) Free space on disk containing Updraft's temporary directory: 391246.3 MB
+0000.092 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.093 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.097 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1585605333, seconds_ago=87141)
+0000.098 (0) Set semaphore last lock (fd) time to 2020-03-31 22:07:54
+0000.099 (0) Semaphore lock (fd) complete
+0000.102 (0) Backup run: resumption=0, nonce=64b49740c600, file_nonce=64b49740c600 begun at=1585692474 (0s ago), job type=backup
+0000.103 (0) Scheduling a resumption (1) after 300 seconds (1585692774) in case this run gets aborted
+0000.117 (0) Checking if we have a zip executable available
+0000.118 (0) Testing: /usr/bin/zip
+0000.126 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.143 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.155 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.156 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.157 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.162 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.163 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.174 (0) Working binary zip found: /usr/bin/zip
+0000.176 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.177 (0) Creation of backups of directories: beginning
+0000.179 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.570 (0) Total entities for the zip file: 988 directories, 5717 files (0 skipped as non-modified), 113.3 MB
+0000.573 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.575 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.578 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.580 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.583 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.584 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.7 MB, 5717 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.791 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: size is now: 5.50 MB
+0001.795 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 600 files added (on-disk size: 5651.7 KB)
+0001.797 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 700 files added (on-disk size: 5651.7 KB)
+0001.799 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 800 files added (on-disk size: 5651.7 KB)
+0001.802 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 900 files added (on-disk size: 5651.7 KB)
+0001.805 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 1000 files added (on-disk size: 5651.7 KB)
+0001.806 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 5717 files batched, 501 (1002) added so far); re-opening (prior size: 5651.7 KB)
+0002.096 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: size is now: 6.60 MB
+0002.100 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 1100 files added (on-disk size: 6803.6 KB)
+0002.102 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 1200 files added (on-disk size: 6803.6 KB)
+0002.104 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 1300 files added (on-disk size: 6803.6 KB)
+0002.107 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 1400 files added (on-disk size: 6803.6 KB)
+0002.109 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 1500 files added (on-disk size: 6803.6 KB)
+0002.110 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 5717 files batched, 501 (1503) added so far); re-opening (prior size: 6803.6 KB)
+0002.435 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 1600 files added (on-disk size: 7636 KB)
+0002.437 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 1700 files added (on-disk size: 7636 KB)
+0002.439 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 1800 files added (on-disk size: 7636 KB)
+0002.442 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 1900 files added (on-disk size: 7636 KB)
+0002.445 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 2000 files added (on-disk size: 7636 KB)
+0002.446 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 5717 files batched, 501 (2004) added so far); re-opening (prior size: 7636 KB)
+0002.990 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: size is now: 11.90 MB
+0002.994 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 2100 files added (on-disk size: 12234.8 KB)
+0002.996 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 2200 files added (on-disk size: 12234.8 KB)
+0002.998 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 2300 files added (on-disk size: 12234.8 KB)
+0003.001 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 2400 files added (on-disk size: 12234.8 KB)
+0003.003 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 2500 files added (on-disk size: 12234.8 KB)
+0003.004 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.6 MB, 5717 files batched, 501 (2505) added so far); re-opening (prior size: 12234.8 KB)
+0004.121 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: size is now: 16.50 MB
+0004.124 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 2600 files added (on-disk size: 16907.3 KB)
+0004.127 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 2700 files added (on-disk size: 16907.3 KB)
+0004.129 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 2800 files added (on-disk size: 16907.3 KB)
+0004.132 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 2900 files added (on-disk size: 16907.3 KB)
+0004.134 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 3000 files added (on-disk size: 16907.3 KB)
+0004.135 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.8 MB, 5717 files batched, 501 (3006) added so far); re-opening (prior size: 16907.3 KB)
+0005.183 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: size is now: 20.70 MB
+0005.186 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 3100 files added (on-disk size: 21214.5 KB)
+0005.189 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 3200 files added (on-disk size: 21214.5 KB)
+0005.191 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 3300 files added (on-disk size: 21214.5 KB)
+0005.193 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 3400 files added (on-disk size: 21214.5 KB)
+0005.195 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 3500 files added (on-disk size: 21214.5 KB)
+0005.196 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 5717 files batched, 501 (3507) added so far); re-opening (prior size: 21214.5 KB)
+0005.750 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 3600 files added (on-disk size: 23188.5 KB)
+0005.752 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 3700 files added (on-disk size: 23188.5 KB)
+0005.754 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 3800 files added (on-disk size: 23188.5 KB)
+0005.756 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 3900 files added (on-disk size: 23188.5 KB)
+0005.758 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 4000 files added (on-disk size: 23188.5 KB)
+0005.759 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 5717 files batched, 501 (4008) added so far); re-opening (prior size: 23188.5 KB)
+0006.551 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: size is now: 27.70 MB
+0006.556 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 4100 files added (on-disk size: 28350.2 KB)
+0006.558 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 4200 files added (on-disk size: 28350.2 KB)
+0006.562 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 4300 files added (on-disk size: 28350.2 KB)
+0006.565 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 4400 files added (on-disk size: 28350.2 KB)
+0006.567 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 4500 files added (on-disk size: 28350.2 KB)
+0006.568 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 5717 files batched, 501 (4509) added so far); re-opening (prior size: 28350.2 KB)
+0007.055 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 4600 files added (on-disk size: 29420.5 KB)
+0007.059 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 4700 files added (on-disk size: 29420.5 KB)
+0007.062 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 4800 files added (on-disk size: 29420.5 KB)
+0007.066 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 4900 files added (on-disk size: 29420.5 KB)
+0007.069 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 5000 files added (on-disk size: 29420.5 KB)
+0007.071 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15 MB, 5717 files batched, 501 (5010) added so far); re-opening (prior size: 29420.5 KB)
+0008.315 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 5100 files added (on-disk size: 34697 KB)
+0008.318 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 5200 files added (on-disk size: 34697 KB)
+0008.321 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 5300 files added (on-disk size: 34697 KB)
+0008.323 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 5400 files added (on-disk size: 34697 KB)
+0008.326 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 5500 files added (on-disk size: 34697 KB)
+0008.327 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 MB, 5717 files batched, 501 (5511) added so far); re-opening (prior size: 34697 KB)
+0008.955 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 5600 files added (on-disk size: 38147.6 KB)
+0008.960 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip.tmp: 5700 files added (on-disk size: 38147.6 KB)
+0009.951 (0) Created plugins zip (0) - 39426.2 KB in 9.7 s (4052.9 KB/s) (sha1: c215dc163956ef59a5953fb1db990c793b11081d, sha256: 34d9b836b911c11ed542baa649921165588cd5d48fe075e2eae3c7ac1ff55b14)
+0009.953 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.061 (0) Total entities for the zip file: 184 directories, 1055 files (0 skipped as non-modified), 18 MB
+0010.064 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.066 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.069 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.071 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.073 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0010.074 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.8 MB, 1055 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0010.866 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: size is now: 5.60 MB
+0010.869 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: 600 files added (on-disk size: 5751.2 KB)
+0010.871 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: 700 files added (on-disk size: 5751.2 KB)
+0010.873 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: 800 files added (on-disk size: 5751.2 KB)
+0010.876 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: 900 files added (on-disk size: 5751.2 KB)
+0010.878 (0) Zip: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: 1000 files added (on-disk size: 5751.2 KB)
+0010.878 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6 MB, 1055 files batched, 501 (1002) added so far); re-opening (prior size: 5751.2 KB)
+0011.304 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip.tmp: size is now: 7.90 MB
+0011.561 (0) Created themes zip (0) - 8698.3 KB in 1.6 s (5531.4 KB/s) (sha1: fe756dd9c62219bc62c9d44e16dd6e3fec3234b0, sha256: c993277730d8f2fe69acde51f5106143c226cf2668f1c1e51a74404ca435c563)
+0011.563 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0011.564 (0) Looking for candidates to backup in: /home4/diylives/public_html/wp-content/uploads
+0011.564 (0) finding files: sinatra: adding to list (1)
+0011.565 (0) finding files: sucuri: adding to list (2)
+0011.566 (0) finding files: 2020: adding to list (3)
+0011.566 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0011.604 (0) Total entities for the zip file: 4 directories, 36 files (0 skipped as non-modified), 0.2 MB
+0011.628 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-uploads.zip.tmp: size is now: 0.20 MB
+0011.633 (0) Created uploads zip (0) - 177.7 KB in 0 s (5630.9 KB/s) (sha1: 57c0e4c2c7a22aa227c235cb1c6f09aaddb3cb6f, sha256: 927268abe51f82cd6eeeb45b548bf9e40c2a8fa5f98558c4920db1bdb99a68ed)
+0011.635 (0) Beginning backup of other directories found in the content directory (index: 0)
+0011.635 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0011.636 (0) Looking for candidates to backup in: /home4/diylives/public_html/wp-content
+0011.636 (0) finding files: wp-cache-config.php: adding to list (1)
+0011.637 (0) finding files: plugins: skipping: this is the plugins directory
+0011.637 (0) finding files: cache: skipping: excluded by options
+0011.638 (0) finding files: mu-plugins: adding to list (2)
+0011.638 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0011.639 (0) finding files: advanced-cache.php: adding to list (3)
+0011.639 (0) finding files: maintenance.php: adding to list (4)
+0011.640 (0) finding files: updraft: skipping: this is the updraft directory
+0011.640 (0) finding files: db-error.php: adding to list (5)
+0011.641 (0) finding files: themes: skipping: this is the themes directory
+0011.641 (0) finding files: upgrade: skipping: excluded by options
+0011.642 (0) finding files: index.php: adding to list (6)
+0011.642 (0) finding files: uploads: skipping: this is the uploads directory
+0011.679 (0) Total entities for the zip file: 1 directories, 8 files (0 skipped as non-modified), 0.1 MB
+0011.688 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-others.zip.tmp: size is now: 0.00 MB
+0011.692 (0) Created others zip (0) - 17 KB in 0 s (1202.9 KB/s) (sha1: 8975c62eda14fb3256167ebee02b5d9c66ac13a0, sha256: d240e2b0f06841bd396f9fec06f1fc7a3d98df9d9e03ad22b77d7685a223c93c)
+0011.695 (0) Saving backup status to database (elements: 8)
+0011.697 (0) Beginning creation of database dump (WordPress DB)
+0011.699 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0011.719 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `_ISX_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1252 bytes total)
+0011.722 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0011.758 (0) Table _ISX_options: Total expected rows (approximate): 465
+0011.813 (0) Table _ISX_options: Total rows added: 461 in 0.05 seconds
+0011.814 (0) Table _ISX_options: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_options.table.gz - 182.7 KB)
+0011.817 (0) Table _ISX_users: Total expected rows (approximate): 2
+0011.820 (0) Table _ISX_users: Total rows added: 2 in 0.00 seconds
+0011.821 (0) Table _ISX_users: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_users.table.gz - 0.6 KB)
+0011.824 (0) Table _ISX_usermeta: Total expected rows (approximate): 82
+0011.827 (0) Table _ISX_usermeta: Total rows added: 82 in 0.00 seconds
+0011.828 (0) Table _ISX_usermeta: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_usermeta.table.gz - 2.4 KB)
+0011.831 (0) Table _ISX_actionscheduler_actions: Total expected rows (approximate): 10
+0011.834 (0) Table _ISX_actionscheduler_actions: Total rows added: 10 in 0.00 seconds
+0011.835 (0) Table _ISX_actionscheduler_actions: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_actionscheduler_actions.table.gz - 1.1 KB)
+0011.837 (0) Table _ISX_actionscheduler_claims: Total expected rows (approximate): 0
+0011.840 (0) Table _ISX_actionscheduler_claims: Total rows added: 0 in 0.00 seconds
+0011.841 (0) Table _ISX_actionscheduler_claims: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_actionscheduler_claims.table.gz - 0.3 KB)
+0011.843 (0) Table _ISX_actionscheduler_groups: Total expected rows (approximate): 2
+0011.846 (0) Table _ISX_actionscheduler_groups: Total rows added: 2 in 0.00 seconds
+0011.846 (0) Table _ISX_actionscheduler_groups: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_actionscheduler_groups.table.gz - 0.4 KB)
+0011.858 (0) Table _ISX_actionscheduler_logs: Total expected rows (approximate): 28
+0011.862 (0) Table _ISX_actionscheduler_logs: Total rows added: 28 in 0.00 seconds
+0011.863 (0) Table _ISX_actionscheduler_logs: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_actionscheduler_logs.table.gz - 0.8 KB)
+0011.866 (0) Table _ISX_commentmeta: Total expected rows (approximate): 0
+0011.869 (0) Table _ISX_commentmeta: Total rows added: 0 in 0.00 seconds
+0011.869 (0) Table _ISX_commentmeta: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_commentmeta.table.gz - 0.4 KB)
+0011.872 (0) Table _ISX_comments: Total expected rows (approximate): 1
+0011.875 (0) Table _ISX_comments: Total rows added: 1 in 0.00 seconds
+0011.875 (0) Table _ISX_comments: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_comments.table.gz - 0.7 KB)
+0011.889 (0) Table _ISX_links: Total expected rows (approximate): 0
+0011.893 (0) Table _ISX_links: Total rows added: 0 in 0.00 seconds
+0011.893 (0) Table _ISX_links: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_links.table.gz - 0.4 KB)
+0011.896 (0) Table _ISX_postmeta: Total expected rows (approximate): 255
+0011.901 (0) Table _ISX_postmeta: Total rows added: 255 in 0.00 seconds
+0011.902 (0) Table _ISX_postmeta: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_postmeta.table.gz - 3.6 KB)
+0011.905 (0) Table _ISX_posts: Total expected rows (approximate): 62
+0011.913 (0) Table _ISX_posts: Total rows added: 62 in 0.01 seconds
+0011.914 (0) Table _ISX_posts: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_posts.table.gz - 10.7 KB)
+0011.932 (0) Table _ISX_term_relationships: Total expected rows (approximate): 3
+0011.938 (0) Table _ISX_term_relationships: Total rows added: 3 in 0.00 seconds
+0011.939 (0) Table _ISX_term_relationships: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_term_relationships.table.gz - 0.4 KB)
+0011.958 (0) Table _ISX_term_taxonomy: Total expected rows (approximate): 6
+0011.964 (0) Table _ISX_term_taxonomy: Total rows added: 6 in 0.00 seconds
+0011.965 (0) Table _ISX_term_taxonomy: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_term_taxonomy.table.gz - 0.5 KB)
+0011.977 (0) Table _ISX_termmeta: Total expected rows (approximate): 0
+0011.981 (0) Table _ISX_termmeta: Total rows added: 0 in 0.00 seconds
+0011.981 (0) Table _ISX_termmeta: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_termmeta.table.gz - 0.4 KB)
+0011.994 (0) Table _ISX_terms: Total expected rows (approximate): 6
+0011.999 (0) Table _ISX_terms: Total rows added: 6 in 0.00 seconds
+0011.999 (0) Table _ISX_terms: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_terms.table.gz - 0.5 KB)
+0012.015 (0) Table _ISX_yoast_seo_links: Total expected rows (approximate): 4
+0012.021 (0) Table _ISX_yoast_seo_links: Total rows added: 4 in 0.00 seconds
+0012.022 (0) Table _ISX_yoast_seo_links: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_yoast_seo_links.table.gz - 0.6 KB)
+0012.034 (0) Table _ISX_yoast_seo_meta: Total expected rows (approximate): 11
+0012.044 (0) Table _ISX_yoast_seo_meta: Total rows added: 11 in 0.00 seconds
+0012.045 (0) Table _ISX_yoast_seo_meta: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_yoast_seo_meta.table.gz - 0.4 KB)
+0012.066 (0) Table _ISX_frm_fields: Total expected rows (approximate): 10
+0012.072 (0) Table _ISX_frm_fields: Total rows added: 10 in 0.00 seconds
+0012.073 (0) Table _ISX_frm_fields: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_frm_fields.table.gz - 1.2 KB)
+0012.084 (0) Table _ISX_frm_forms: Total expected rows (approximate): 2
+0012.089 (0) Table _ISX_frm_forms: Total rows added: 2 in 0.00 seconds
+0012.090 (0) Table _ISX_frm_forms: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_frm_forms.table.gz - 1.3 KB)
+0012.104 (0) Table _ISX_frm_item_metas: Total expected rows (approximate): 0
+0012.110 (0) Table _ISX_frm_item_metas: Total rows added: 0 in 0.00 seconds
+0012.111 (0) Table _ISX_frm_item_metas: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_frm_item_metas.table.gz - 0.4 KB)
+0012.125 (0) Table _ISX_frm_items: Total expected rows (approximate): 0
+0012.127 (0) Table _ISX_frm_items: Total rows added: 0 in 0.00 seconds
+0012.128 (0) Table _ISX_frm_items: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_frm_items.table.gz - 0.5 KB)
+0012.143 (0) Table _ISX_responsive_menu: Total expected rows (approximate): 282
+0012.149 (0) Table _ISX_responsive_menu: Total rows added: 282 in 0.00 seconds
+0012.150 (0) Table _ISX_responsive_menu: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_responsive_menu.table.gz - 2.2 KB)
+0012.165 (0) Table _ISX_wpforms_tasks_meta: Total expected rows (approximate): 1
+0012.170 (0) Table _ISX_wpforms_tasks_meta: Total rows added: 1 in 0.00 seconds
+0012.171 (0) Table _ISX_wpforms_tasks_meta: finishing file (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_wpforms_tasks_meta.table.gz - 0.4 KB)
+0012.175 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_options.table.gz (1/24): adding to final database dump
+0012.220 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_users.table.gz (2/24): adding to final database dump
+0012.222 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_usermeta.table.gz (3/24): adding to final database dump
+0012.225 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_actionscheduler_actions.table.gz (4/24): adding to final database dump
+0012.227 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_actionscheduler_claims.table.gz (5/24): adding to final database dump
+0012.228 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_actionscheduler_groups.table.gz (6/24): adding to final database dump
+0012.229 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_actionscheduler_logs.table.gz (7/24): adding to final database dump
+0012.230 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_commentmeta.table.gz (8/24): adding to final database dump
+0012.230 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_comments.table.gz (9/24): adding to final database dump
+0012.231 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_links.table.gz (10/24): adding to final database dump
+0012.232 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_postmeta.table.gz (11/24): adding to final database dump
+0012.236 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_posts.table.gz (12/24): adding to final database dump
+0012.240 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_term_relationships.table.gz (13/24): adding to final database dump
+0012.241 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_term_taxonomy.table.gz (14/24): adding to final database dump
+0012.243 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_termmeta.table.gz (15/24): adding to final database dump
+0012.245 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_terms.table.gz (16/24): adding to final database dump
+0012.246 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_yoast_seo_links.table.gz (17/24): adding to final database dump
+0012.247 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_yoast_seo_meta.table.gz (18/24): adding to final database dump
+0012.247 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_frm_fields.table.gz (19/24): adding to final database dump
+0012.249 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_frm_forms.table.gz (20/24): adding to final database dump
+0012.250 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_frm_item_metas.table.gz (21/24): adding to final database dump
+0012.251 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_frm_items.table.gz (22/24): adding to final database dump
+0012.252 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_responsive_menu.table.gz (23/24): adding to final database dump
+0012.253 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db-table-_ISX_wpforms_tasks_meta.table.gz (24/24): adding to final database dump
+0012.258 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db.gz: finished writing out complete database file (192 KB)
+0012.272 (0) Total database tables backed up: 24 (backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db.gz, size: 211159, sha1: 4c924681d68893b996a28b0a50add9f802a9068d, sha256: d668b2e11bd986ef3d26135e54cf0de85765f8181d1b2f0bd1aa8ba7f1e97aac)
+0012.287 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0012.290 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0012.291 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0012.291 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-others.zip: others: This file has not yet been successfully uploaded: will queue
+0012.295 (0) backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db.gz: db: This file has not yet been successfully uploaded: will queue
+0012.297 (0) Saving backup history. Total backup size: 47.4 MB
+0012.311 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0012.315 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.318 (0) No remote despatch: user chose no remote backup service
+0012.321 (0) Recording as successfully uploaded: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-plugins.zip
+0012.324 (0) Recording as successfully uploaded: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-themes.zip
+0012.329 (0) Recording as successfully uploaded: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-uploads.zip
+0012.331 (0) Recording as successfully uploaded: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-others.zip
+0012.332 (0) Recording as successfully uploaded: backup_2020-03-31-1707_THE_RIVERBANK_64b49740c600-db.gz
+0012.334 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.335 (0) Number of backup sets in history: 3; groups (db): 1
+0012.336 (0) Examining (for databases) backup set with group_id=0, nonce=64b49740c600, datestamp=1585692474 (Mar 31 2020 22:07:54)
+0012.337 (0) This backup set is the backup set just made, so will not be deleted.
+0012.337 (0) Examining (for databases) backup set with group_id=0, nonce=c8bf95b99a69, datestamp=1585605333 (Mar 30 2020 21:55:33)
+0012.337 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.337 (0) Examining (for databases) backup set with group_id=0, nonce=5f443959b573, datestamp=1585514636 (Mar 29 2020 20:43:56)
+0012.337 (0) 1585514636: db: this set includes a database (backup_2020-03-29-1543_THE_RIVERBANK_5f443959b573-db.gz); db count is now 2
+0012.337 (0) 1585514636: db: over retain limit (2); will delete this database
+0012.337 (0) Delete file: backup_2020-03-29-1543_THE_RIVERBANK_5f443959b573-db.gz, service=none
+0012.338 (0) Deleting local copy (backup_2020-03-29-1543_THE_RIVERBANK_5f443959b573-db.gz)
+0012.340 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0012.340 (0) Number of backup sets in history: 3; groups (files): 1
+0012.341 (0) Examining (for files) backup set with nonce=64b49740c600, datestamp=1585692474 (Mar 31 2020 22:07:54)
+0012.341 (0) This backup set is the backup set just made, so will not be deleted.
+0012.341 (0) This backup set is the backup set just made, so will not be deleted.
+0012.342 (0) This backup set is the backup set just made, so will not be deleted.
+0012.342 (0) This backup set is the backup set just made, so will not be deleted.
+0012.342 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.343 (0) Examining (for files) backup set with nonce=c8bf95b99a69, datestamp=1585605333 (Mar 30 2020 21:55:33)
+0012.343 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.343 (0) Examining (for files) backup set with nonce=5f443959b573, datestamp=1585514636 (Mar 29 2020 20:43:56)
+0012.343 (0) plugins: over retain limit (2); will delete this file entity
+0012.343 (0) themes: over retain limit (2); will delete this file entity
+0012.343 (0) uploads: over retain limit (2); will delete this file entity
+0012.343 (0) others: over retain limit (2); will delete this file entity
+0012.343 (0) Delete file: backup_2020-03-29-1543_THE_RIVERBANK_5f443959b573-plugins.zip, service=none
+0012.343 (0) Deleting local copy (backup_2020-03-29-1543_THE_RIVERBANK_5f443959b573-plugins.zip)
+0012.344 (0) Delete file: backup_2020-03-29-1543_THE_RIVERBANK_5f443959b573-themes.zip, service=none
+0012.345 (0) Deleting local copy (backup_2020-03-29-1543_THE_RIVERBANK_5f443959b573-themes.zip)
+0012.346 (0) Delete file: backup_2020-03-29-1543_THE_RIVERBANK_5f443959b573-uploads.zip, service=none
+0012.346 (0) Deleting local copy (backup_2020-03-29-1543_THE_RIVERBANK_5f443959b573-uploads.zip)
+0012.347 (0) Delete file: backup_2020-03-29-1543_THE_RIVERBANK_5f443959b573-others.zip, service=none
+0012.348 (0) Deleting local copy (backup_2020-03-29-1543_THE_RIVERBANK_5f443959b573-others.zip)
+0012.350 (0) This backup set is now empty; will remove from history
+0012.350 (0) Deleting log file (log.5f443959b573.txt)
+0012.351 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0012.354 (0) Resume backup (64b49740c600, 0): finish run
+0012.355 (0) Decremented the semaphore (fd) by 1
+0012.356 (0) Semaphore (fd) unlocked
+0012.357 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0012.361 (0) No email will/can be sent - the user has not configured an email address.
+0012.361 (0) The backup apparently succeeded and is now complete

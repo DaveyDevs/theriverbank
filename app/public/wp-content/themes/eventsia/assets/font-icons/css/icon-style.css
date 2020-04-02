@@ -1,0 +1,349 @@
+
+.fa,
+.fas,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1; }
+
+.fa-angle-double-up:before {
+  content: "\f102"; 
+}
+
+.fa-angle-double-left:before {
+  content: "\f100"; 
+}
+
+.fa-angle-double-right:before {
+  content: "\f101"; 
+}
+
+.fa-angle-down:before {
+  content: "\f107"; 
+}
+
+.fa-angle-right:before {
+  content: "\f105"; 
+}
+
+.fa-search:before {
+  content: "\f002"; 
+}
+
+.fa-times:before {
+  content: "\f00d"; 
+}
+
+.fa-chevron-right:before {
+  content: "\f054"; 
+}
+
+.fa-map-marker-alt:before {
+  content: "\f3c5"; 
+}
+
+.fa-phone-square-alt:before {
+  content: "\f87b"; 
+}
+
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+.fa-user-alt:before {
+  content: "\f406";
+}
+
+.fa-calendar-alt:before {
+  content: "\f073";
+}
+
+.fa-comments:before {
+  content: "\f086";
+}
+
+.fa-angle-up:before {
+  content: "\f106";
+}
+
+.fa-tag:before {
+  content: "\f02b";
+}
+
+.fa-folder-open:before {
+  content: "\f07c";
+}
+
+.fa-facebook-f:before {
+  content: "\f39e";
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}
+
+.fa-google-plus-g:before {
+  content: "\f0d5";
+}
+
+.fa-pinterest-p:before {
+  content: "\f231";
+}
+
+.fa-dribbble:before {
+  content: "\f17d";
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fa-flickr:before {
+  content: "\f16e";
+}
+
+.fa-linkedin-in:before {
+  content: "\f0e1";
+}
+
+.fa-youtube:before {
+  content: "\f167";
+}
+
+.fa-vimeo-v:before {
+  content: "\f27d";
+}
+
+.fa-skype:before {
+  content: "\f17e";
+}
+
+.fa-xing:before {
+  content: "\f168";
+}
+
+.fa-slack:before {
+  content: "\f198";
+}
+
+.fa-wordpress:before {
+  content: "\f19a";
+}
+
+.fa-github:before {
+  content: "\f09b";
+}
+
+.fa-bitbucket:before {
+  content: "\f171";
+}
+
+.fa-jsfiddle:before {
+  content: "\f1cc";
+}
+
+.fa-codepen:before {
+  content: "\f1cb";
+}
+
+.fa-tumblr:before {
+  content: "\f173";
+}
+
+.fa-tripadvisor:before {
+    content: "\f262";
+}
+
+.fa-soundcloud:before {
+    content: "\f1be";
+}
+
+.fa-digg:before {
+    content: "\f1a6";
+}
+
+.fa-reddit-alien:before {
+    content: "\f281";
+}
+
+.fa-stumbleupon:before {
+    content: "\f1a4";
+}
+
+.fa-get-pocket:before {
+    content: "\f265";
+}
+.fa-vine:before {
+    content: "\f1ca";
+}
+.fa-vk:before {
+    content: "\f189";
+}
+.fa-whatsapp:before {
+    content: "\f232";
+}
+.fa-lastfm:before {
+    content: "\f202";
+}
+
+.fa-forumbee:before {
+    content: "\f211";
+}
+
+.fa-foursquare:before {
+    content: "\f180";
+}
+.fa-500px:before {
+    content: "\f26e";
+}
+
+.fa-paypal:before {
+    content: "\f1ed";
+}
+.fa-viadeo:before {
+    content: "\f2a9";
+}
+.fa-telegram:before {
+    content: "\f2c6";
+}
+
+.fa-dropbox:before {
+    content: "\f16b";
+}
+
+.fa-google-wallet:before {
+    content: "\f1ee";
+}
+
+.fa-git-alt:before {
+    content: "\f841";
+}
+
+.fa-stack-overflow:before {
+    content: "\f16c";
+}
+
+.fa-wikipedia-w:before {
+    content: "\f266";
+}
+
+.fa-odnoklassniki:before {
+    content: "\f263";
+}
+
+.fa-mixcloud:before {
+    content: "\f289";
+}
+
+.fa-itunes:before {
+    content: "\f3b4";
+}
+
+.fa-behance:before {
+    content: "\f1b4";
+}
+
+.fa-yelp:before {
+    content: "\f1e9";
+}
+
+.fa-weixin:before {
+    content: "\f1d7";
+}
+
+.fa-apple:before {
+    content: "\f179";
+}
+
+.fa-android:before {
+    content: "\f17b";
+}
+
+.fa-windows:before {
+    content: "\f17a";
+}
+
+.fa-amazon:before {
+    content: "\f270";
+}
+
+.fa-ebay:before {
+    content: "\f4f4";
+}
+
+.fa-product-hunt:before {
+    content: "\f288";
+}
+
+.fa-deviantart:before {
+    content: "\f1bd";
+}
+
+.fa-docker:before {
+    content: "\f395";
+}
+
+.fa-periscope:before {
+    content: "\f3da";
+}
+
+.fa-slideshare:before {
+    content: "\f1e7";
+}
+
+.fa-snapchat:before {
+    content: "\f2ab";
+}
+
+.fa-medium-m:before {
+    content: "\f3c7";
+}
+
+.fa-spotify:before {
+    content: "\f1bc";
+}
+
+.fa-twitch:before {
+    content: "\f1e8";
+}
+
+.fa-mailchimp:before {
+    content: "\f59e";
+}
+
+.fa-plus:before {
+    content: "\f067";
+}
+
+.fa-minus:before {
+    content: "\f068";
+}
+
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../webfonts/fa-brands-400.eot");
+  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+
+.fab {
+  font-family: 'Font Awesome 5 Brands'; }
+  
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; }

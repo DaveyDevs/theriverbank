@@ -147,6 +147,10 @@ Version: 1.0.0
 /* ******************************************************************* */
 /* Contact/Suggestions page */
 
+.wpforms-description > a:nth-child(3):focus {
+  outline: solid 2px #00d118;
+}
+
 .wpem-form-wrapper .wpem-form-group .wpem-form-label-text {
   color: white;
 }

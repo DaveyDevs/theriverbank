@@ -1,7 +1,7 @@
 <?php
 // datastore=auditqueue;
 // created_on=1585428093;
-// updated_on=1585801192;
+// updated_on=1585890418;
 exit(0);
 ?>
 1585428093_7317:"Warning: daveydevs, 73.111.201.200; Plugin activated: Sucuri Security - Auditing, Malware Scanner and Hardening (v1.8.24; sucuri-scanner\/sucuri.php)"
@@ -161,3 +161,16 @@ exit(0);
 1585699382_3523:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 70,Old status: auto-draft,New status: draft,Title: Past event please expire"
 1585699419_0346:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 70,Old status: draft,New status: publish,Title: Past event please expire"
 1585790473_2572:"Notice: 73.111.201.200; User authentication succeeded: daveydevs"
+1585879020_9016:"Notice: 127.0.0.1; User authentication succeeded: daveydevs"
+1585879271_8441:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 70,Old status: publish,New status: expired,Title: Past event please expire"
+1585879327_6734:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 70,Old status: expired,New status: publish,Title: Past event please expire"
+1585879330_5921:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 70,Old status: publish,New status: expired,Title: Past event please expire"
+1585880154_1989:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 56,Old status: publish,New status: expired,Title: Ben&#039;s Test Event"
+1585880220_3913:"Notice: daveydevs, 127.0.0.1; Event_listing status has been changed; details: ID: 20,Old status: publish,New status: expired,Title: A Cool test event"
+1585890423_2451:"Notice: 127.0.0.1; User authentication succeeded: daveydevs"
+1585957509_9199:"Notice: 127.0.0.1; User authentication succeeded: daveydevs"
+1585958019_0496:"Warning: daveydevs, 127.0.0.1; Plugin deactivated: OptinMonster API (v1.9.6; optinmonster\/optin-monster-wp-api.php)"
+1585958086_5679:"Warning: daveydevs, 127.0.0.1; Plugin deactivated: WP Super Cache (v1.7.1; wp-super-cache\/wp-cache.php)"
+1585958086_8509:"Warning: daveydevs, 127.0.0.1; Plugin deactivated: WP Super Cache (v1.7.1; wp-super-cache\/wp-cache.php)"
+1585959028_1764:"Notice: 127.0.0.1; User authentication succeeded: daveydevs"
+1585961303_859:"Notice: 127.0.0.1; User authentication succeeded: daveydevs"

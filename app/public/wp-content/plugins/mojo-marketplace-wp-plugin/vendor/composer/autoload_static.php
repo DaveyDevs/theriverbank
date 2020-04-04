@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1b26efd68fb7e83db1fe1a9a52b4dd4c
+class ComposerStaticInit6e35a2892aa28e54cf18b8c384bb9e16
 {
     public static $files = array (
         '637fa4e5a9fe2956d844ead1daab0f31' => __DIR__ . '/..' . '/bluehost/endurance-wp-module-business-reviews/bootstrap.php',
@@ -12,6 +12,20 @@ class ComposerStaticInit1b26efd68fb7e83db1fe1a9a52b4dd4c
         '0a7ee76a6dd15c6349ed695bd3b2a987' => __DIR__ . '/..' . '/bluehost/endurance-wp-module-loader/module-loader.php',
         '9faa360fe54c7920477332fc60d95b84' => __DIR__ . '/..' . '/bluehost/endurance-wp-module-spam-prevention/bootstrap.php',
         '6e09b332987211bb2939025b3ed3c51b' => __DIR__ . '/..' . '/bluehost/endurance-wp-module-sso/bootstrap.php',
+    );
+
+    public static $prefixLengthsPsr4 = array (
+        'D' => 
+        array (
+            'Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 55,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dealerdirect/phpcodesniffer-composer-installer/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -25,6 +39,7 @@ class ComposerStaticInit1b26efd68fb7e83db1fe1a9a52b4dd4c
     );
 
     public static $classMap = array (
+        'Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin' => __DIR__ . '/..' . '/dealerdirect/phpcodesniffer-composer-installer/src/Plugin.php',
         'EIG_Module_Gutenframe' => __DIR__ . '/..' . '/bluehost/endurance-wp-module-gutenframe/src/class-eig-module-gutenframe.php',
         'Endurance_Collection' => __DIR__ . '/..' . '/bluehost/endurance-wp-module-loader/includes/Collection.php',
         'Endurance_ModuleManager' => __DIR__ . '/..' . '/bluehost/endurance-wp-module-loader/includes/ModuleManager.php',
@@ -37,8 +52,10 @@ class ComposerStaticInit1b26efd68fb7e83db1fe1a9a52b4dd4c
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInit1b26efd68fb7e83db1fe1a9a52b4dd4c::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit1b26efd68fb7e83db1fe1a9a52b4dd4c::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6e35a2892aa28e54cf18b8c384bb9e16::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6e35a2892aa28e54cf18b8c384bb9e16::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit6e35a2892aa28e54cf18b8c384bb9e16::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit6e35a2892aa28e54cf18b8c384bb9e16::$classMap;
 
         }, null, ClassLoader::class);
     }

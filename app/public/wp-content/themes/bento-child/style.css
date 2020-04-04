@@ -183,6 +183,18 @@ body label {
 /* ***************************************************************** */
 /* Event info page */
 
+.wpem-single-event-page
+  .wpem-single-event-wrapper
+  .wpem-single-event-header-top
+  .wpem-event-single-image-wrapper
+  .wpem-event-single-image
+  img {
+  height: auto;
+  width: 50vw;
+  margin: 0 auto;
+  display: block;
+}
+
 .wpem-single-event-images {
   background-color: #141414;
 }
@@ -205,11 +217,7 @@ body label {
 }
 
 .wpem-event-sidebar-button .registration_button {
-  background-color: #00d118;
-}
-
-.wpem-event-sidebar-button .registration_button:hover {
-  background-color: #00af1a;
+  display: none;
 }
 
 #event-youtube-button {

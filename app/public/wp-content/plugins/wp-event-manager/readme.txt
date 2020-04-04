@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: event manager, calendar, Event, events, event management, google maps, registration, maps, listings
 Requires at least: 4.1
 Tested up to: 5.4
-Stable tag: 3.1.12
+Stable tag: 3.1.13
 Requires PHP: 5.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -311,6 +311,11 @@ If you wish to be notified of new postings on your site you can use a plugin suc
 
 == Changelog ==
 
+= 3.1.13 =
+
+* Fixed - Event description duplication.
+
+
 = 3.1.12 =
 
 * Fixed - Banner attachment issue.
@@ -319,7 +324,6 @@ If you wish to be notified of new postings on your site you can use a plugin suc
 * Fixed - Registration button improved.
 * Fixed - Some string translation improved.
 * Added - REST API added.
-* Added - Schema added in templates.
 
 = 3.1.11 =
 

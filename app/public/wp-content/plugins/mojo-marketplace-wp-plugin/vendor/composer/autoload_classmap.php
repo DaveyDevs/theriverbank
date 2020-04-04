@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin' => $vendorDir . '/dealerdirect/phpcodesniffer-composer-installer/src/Plugin.php',
     'EIG_Module_Gutenframe' => $vendorDir . '/bluehost/endurance-wp-module-gutenframe/src/class-eig-module-gutenframe.php',
     'Endurance_Collection' => $vendorDir . '/bluehost/endurance-wp-module-loader/includes/Collection.php',
     'Endurance_ModuleManager' => $vendorDir . '/bluehost/endurance-wp-module-loader/includes/ModuleManager.php',

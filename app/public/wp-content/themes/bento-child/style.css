@@ -189,8 +189,8 @@ body label {
   .wpem-event-single-image-wrapper
   .wpem-event-single-image
   img {
-  height: auto;
-  width: 50vw;
+  height: 65vmin;
+  width: auto;
   margin: 0 auto;
   display: block;
 }
@@ -201,6 +201,37 @@ body label {
 
 .wpem-single-event-short-info {
   background-color: white;
+}
+
+.event-links-container {
+  padding: 2em 0 0 0;
+}
+
+.event-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-link,
+.event-link:visited {
+  background-color: white;
+  border: solid 1px #00d118;
+  border-radius: 5px;
+  margin: 0.2em;
+  padding: 0.5em 0.5em;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.event-link:hover,
+.event-link:active {
+  background-color: #00af1a;
+  color: white !important;
+}
+
+a.event-link:focus {
+  outline: solid 0.2em #00d118;
 }
 
 .wpem-single-event-body > div:nth-child(1) {
